@@ -7,8 +7,11 @@ Graphical terminal on Proxmox machine based on debian, X11, gnome, synergy, grid
 + [How To Install **Pop Shell** Window Tiling Extension](#How To Install **Pop Shell** Window Tiling Extension)
 + [Installing Material Shell]()
 + [Synergy]()
-+ [Flatpak]() 
++ [Flatpak]()
++ [Add User]()
++ [Solaar]()
 
+  
 ## Sources
 
 + [Leleat/Tiling-Assistant: An extension which adds a Windows-like snap assist to GNOME. It also expands GNOME's 2 column tiling layout.](https://github.com/Leleat/Tiling-Assistant)
@@ -123,5 +126,44 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 reboot
 ```
     
-    
 
+
+## Add User
+
+the usermod command with the -a (append) and -G (group name) options to add users to sudoers. 
+The -G option allows us to name the group we’d like to add the user to, and the -a option tells usermod to add the new group to the list of existing groups this user is already in.
+make sure you’ve included the -a option.
+```
+sudo usermod -aG sudo tom
+```
+
+We need to edit the sudoers file.
+
+```bash
+sudo visudo
+```
+
+Add these lines below that section
+
+```
+# user tom can install software
+tom     ALL=(root) /usr/bin/apt
+```
+
+
+
+## Solaar
+
++ [pwr-Solaar/Solaar: Linux device manager for Logitech devices](https://github.com/pwr-Solaar/Solaar)
+
++ [Manual Installation | Solaar](https://pwr-solaar.github.io/Solaar/installation)
+  
+```
+# An easy way to install the most recent release version of Solaar is from the PyPI repository. First install pip, and then run
+pip install --user 'solaar[report-descriptor,git-commit]'
+
+# This will not install the Solaar udev rule, which you will need to install manually by copying
+~/.local/share/solaar/udev-rules.d/42-logitech-unify-permissions.rules
+# to /etc/udev/rules.d as root.
+```
+ 
