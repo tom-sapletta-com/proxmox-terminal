@@ -1,6 +1,16 @@
 # proxmox-terminal
 Graphical terminal on Proxmox machine based on debian, X11, gnome, synergy, grid screen, auto tiling
 
+## Menu
+
++ [Sources](#Sources)
++ [How To Install **Pop Shell** Window Tiling Extension](#How To Install **Pop Shell** Window Tiling Extension)
++ [Installing Material Shell]()
++ [Synergy]()
++ [Flatpak]() 
+
+## Sources
+
 + [Leleat/Tiling-Assistant: An extension which adds a Windows-like snap assist to GNOME. It also expands GNOME's 2 column tiling layout.](https://github.com/Leleat/Tiling-Assistant)
 
 + [forge-ext/forge: Forge - Tiling and Window Manager for Gnome-Shell](https://github.com/forge-ext/forge)
@@ -22,7 +32,7 @@ npm run format
 ## How To Install **Pop Shell** Window Tiling Extension 
 
 + [pop-os/shell: Pop!_OS Shell](https://github.com/pop-os/shell)
-
++ [Using Pop Shell on other GNOME Desktops - System76 Support](https://support.system76.com/articles/pop-shell/)
 + [How To Install Pop Shell Window Tiling Extension On Ubuntu 20.04, 20.10 Or 21.04, Fedora 32, 33 Or 34, Debian Bullseye Or Sid, And Arch Linux Or Manjaro - Linux Uprising Blog](https://www.linuxuprising.com/2020/05/how-to-install-pop-shell-tiling.html)
 
 
@@ -94,3 +104,24 @@ sudo make install
 > 
 > - `Super+Space` Cycle the tiling layout of the current workspace.
 > - `Super+Escape` Toggle the UI of Material-shell, like a Zen mode.
+
+
+## Synergy
+
++ [Download Synergy 3](https://symless.com/synergy/download)
++ 
+
+## Flatpak
+
+
+```bash
+apt install flatpak
+# Install the Software Flatpak plugin
+apt install gnome-software-plugin-flatpak
+# Add the Flathub repository
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+reboot
+```
+    
+    
+
