@@ -1,11 +1,30 @@
 # proxmox-terminal
 Graphical terminal on Proxmox machine based on debian, X11, gnome, synergy, grid screen, auto tiling
 
++ [Leleat/Tiling-Assistant: An extension which adds a Windows-like snap assist to GNOME. It also expands GNOME's 2 column tiling layout.](https://github.com/Leleat/Tiling-Assistant)
+
++ [forge-ext/forge: Forge - Tiling and Window Manager for Gnome-Shell](https://github.com/forge-ext/forge)
+Forge is a GNOME Shell extension that provides tiling/window management.
+
+```bash
+# X11
+make test-x
+
+# Wayland
+make test-wayland
+
+# Formatting, when you do npm install, 
+# husky gets installed should force prettier formatting during commit
+npm run format
+```
 
 
-## How To Install Pop Shell Window Tiling Extension 
+## How To Install **Pop Shell** Window Tiling Extension 
+
++ [pop-os/shell: Pop!_OS Shell](https://github.com/pop-os/shell)
 
 + [How To Install Pop Shell Window Tiling Extension On Ubuntu 20.04, 20.10 Or 21.04, Fedora 32, 33 Or 34, Debian Bullseye Or Sid, And Arch Linux Or Manjaro - Linux Uprising Blog](https://www.linuxuprising.com/2020/05/how-to-install-pop-shell-tiling.html)
+
 
 
 ```bash
