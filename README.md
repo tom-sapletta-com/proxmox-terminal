@@ -43,5 +43,35 @@ sudo make install
 
 ## Installing Material Shell
 
-+ [Give Your GNOME Desktop a Tiling Makeover With Material Shell GNOME Extension](https://itsfoss.com/material-shell/)
 
++ [Give Your GNOME Desktop a Tiling Makeover With Material Shell GNOME Extension](https://itsfoss.com/material-shell/)
++ [Material Shell - A new desktop experience](https://material-shell.com/#tiling-engine)
+
+
+[Material Shell - A new desktop experience](https://material-shell.com/#persistence)
+
+> # [](https://material-shell.com/#hotkeys)Hotkeys
+> 
+> Some hotkeys might already be used by GNOME Shell - please check your keybindings first.
+> 
+> #### [](https://material-shell.com/#desktop-navigation)Desktop navigation
+> 
+> - `Super+W` Navigate to the upper workspace.
+> - `Super+S` Navigate to the lower workspace.
+> - `Super+A` Focus the window at the left of the current window.
+> - `Super+D` Focus the window at the right of the current window.
+> - `Super+1`, `Super+2` ... `Super+0` Navigate to specific workspace
+> 
+> #### [](https://material-shell.com/#window-manipulation)Window manipulation
+> 
+> - `Super+Q` Kill the current window focused.
+> - `Super+[MouseDrag]` Move window around.
+> - `Super+Shift+A` Move the current window to the left.
+> - `Super+Shift+D` Move the current window to the right.
+> - `Super+Shift+W` Move the current window to the upper workspace.
+> - `Super+Shift+S` Move the current window to the lower workspace.
+> 
+> #### [](https://material-shell.com/#extra-hotkeys)Extra Hotkeys
+> 
+> - `Super+Space` Cycle the tiling layout of the current workspace.
+> - `Super+Escape` Toggle the UI of Material-shell, like a Zen mode.
