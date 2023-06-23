@@ -4,6 +4,7 @@ Graphical terminal on Proxmox machine based on debian, X11, gnome, synergy, grid
 ## Menu
 
 + [Sources](#Sources)
++ [Gnome]() 
 + [How To Install **Pop Shell** Window Tiling Extension](#How To Install **Pop Shell** Window Tiling Extension)
 + [Installing Material Shell]()
 + [Synergy]()
@@ -14,6 +15,8 @@ Graphical terminal on Proxmox machine based on debian, X11, gnome, synergy, grid
   
 ## Sources
 
++ [Developer Workstations with Proxmox VE and X11 - Proxmox VE](https://pve.proxmox.com/wiki/Developer_Workstations_with_Proxmox_VE_and_X11)
+  
 + [Leleat/Tiling-Assistant: An extension which adds a Windows-like snap assist to GNOME. It also expands GNOME's 2 column tiling layout.](https://github.com/Leleat/Tiling-Assistant)
 
 + [forge-ext/forge: Forge - Tiling and Window Manager for Gnome-Shell](https://github.com/forge-ext/forge)
@@ -29,6 +32,31 @@ make test-wayland
 # Formatting, when you do npm install, 
 # husky gets installed should force prettier formatting during commit
 npm run format
+```
+
+
+## Gnome
++ [Developer Workstations with Proxmox VE and X11 - Proxmox VE](https://pve.proxmox.com/wiki/Developer_Workstations_with_Proxmox_VE_and_X11)
+
+### Install X-windows
+
+Update your repository and system by running:
+```
+apt-get update && apt-get dist-upgrade
+```
+I choose xfce4 desktop as this a lightweight desktop environment. If you prefer another one, just replace xfce4 with lxde, gnome, icewm, kde, ...
+```
+apt-get install xfce4 chromium lightdm
+```
+
+Before starting the x-windows, create a normal user with:
+```
+adduser newusername
+```
+
+Start the login manager:
+```
+systemctl start lightdm
 ```
 
 
