@@ -38,6 +38,12 @@ npm run format
 ## Gnome
 + [Developer Workstations with Proxmox VE and X11 - Proxmox VE](https://pve.proxmox.com/wiki/Developer_Workstations_with_Proxmox_VE_and_X11)
 
+### Install GNOME
+
+```
+apt-get install gnome 
+```
+ 
 ### Install X-windows
 
 Update your repository and system by running:
