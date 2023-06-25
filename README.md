@@ -11,6 +11,7 @@ Graphical terminal on Proxmox machine based on debian, X11, gnome, synergy, grid
 + [Flatpak]()
 + [Add User]()
 + [Solaar]()
++ GPU Passthrough on Proxmox
 
   
 ## Sources
@@ -201,3 +202,8 @@ pip install --user 'solaar[report-descriptor,git-commit]'
 # to /etc/udev/rules.d as root.
 ```
  
+
+
+## GPU Passthrough on Proxmox
+
++ [How to Set Up GPU Passthrough on Proxmox (2023) - WunderTech](https://www.wundertech.net/how-to-set-up-gpu-passthrough-on-proxmox/)
