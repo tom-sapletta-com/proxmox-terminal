@@ -207,3 +207,13 @@ pip install --user 'solaar[report-descriptor,git-commit]'
 ## GPU Passthrough on Proxmox
 
 + [How to Set Up GPU Passthrough on Proxmox (2023) - WunderTech](https://www.wundertech.net/how-to-set-up-gpu-passthrough-on-proxmox/)
+
+
+
+
+
+# Proxmox client
+
++ [PVE-VDIClient - A Python Graphical VDI Client for Proxmox :: apalrd's adventures](https://www.apalrd.net/posts/2022/raspi_spice_vdi/)
++ [joshpatten/PVE-VDIClient: Proxmox based VDI client](https://github.com/joshpatten/PVE-VDIClient)
++ [PROXMOX VDI Client - A Better Approach to Thin Clients for Proxmox - YouTube](https://www.youtube.com/watch?v=oLatrZBFQrw)
